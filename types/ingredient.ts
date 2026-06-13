@@ -5,7 +5,7 @@ export type PresetIconName =
   | "Calendar"
   | "MapPin"
   | "Ruler"
-  | "Smile"
+  | "Droplet"
   | "Package";
 
 export type IngredientIcon = PresetIconName | LucideIcon;

@@ -3,7 +3,7 @@ import {
   Calendar,
   MapPin,
   Ruler,
-  Smile,
+  Droplet,
   Package,
   type LucideProps,
   type LucideIcon,
@@ -15,7 +15,7 @@ const PRESET_ICONS: Record<PresetIconName, LucideIcon> = {
   Calendar,
   MapPin,
   Ruler,
-  Smile,
+  Droplet,
   Package,
 };
 
