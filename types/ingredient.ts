@@ -20,6 +20,7 @@ export interface Ingredient {
   id: number;
   category: string;
   categoryColor: string;
+  iconColor: string;
   name: string;
   bgColor: string;
   details: IngredientDetail[];

@@ -4,7 +4,8 @@ export const INGREDIENTS: Ingredient[] = [
   {
     id: 1,
     category: "01. Cítrico",
-    categoryColor: "var(--color-brand-orange)",
+    categoryColor: "var(--color-brand-green-mid)",
+    iconColor: "var(--color-brand-green-mid)",
     name: "Limón",
     bgColor: "var(--color-bg-lemon)",
     image: "/ingredients/lemon1.jpg",
@@ -22,6 +23,7 @@ export const INGREDIENTS: Ingredient[] = [
     id: 2,
     category: "02. Hortaliza",
     categoryColor: "var(--color-brand-red)",
+    iconColor: "var(--color-brand-red)",
     name: "Tomate",
     bgColor: "var(--color-bg-tomato)",
     image: "/ingredients/tomate1.jpg",

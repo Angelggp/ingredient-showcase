@@ -23,6 +23,7 @@ interface DetailRowProps {
   icon: IngredientIcon;
   label: string;
   value: string;
+  iconColor?: string;
 }
 
 function resolveIcon(icon: IngredientIcon): LucideIcon {
@@ -32,7 +33,7 @@ function resolveIcon(icon: IngredientIcon): LucideIcon {
   return icon;
 }
 
-export default function DetailRow({ icon, label, value }: DetailRowProps) {
+export default function DetailRow({ icon, label, value, iconColor  }: DetailRowProps) {
   const Icon = resolveIcon(icon);
 
   return (
@@ -41,7 +42,7 @@ export default function DetailRow({ icon, label, value }: DetailRowProps) {
         <Icon
           size={22}
           strokeWidth={1.5}
-          style={{ color: "var(--color-brand-green-mid)", flexShrink: 0 }}
+          style={{ color: iconColor ?? "var(--color-brand-green-mid)", flexShrink: 0 }}
         />
         <span
           style={{
